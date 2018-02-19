@@ -22,7 +22,7 @@
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>
         <source-file src="src/android/CDVTagManager.java" target-dir="src/com/jareddickson/cordova/tagmanager"/>
-        <source-file src="src/android/libGoogleAnalyticsServices.jar" target-dir="libs" />
+        <source-file src="src/android/libGoogleAnalyticsServices.jar" target-dir="app/libs" />
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
